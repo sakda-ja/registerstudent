@@ -101,23 +101,43 @@
             </li>
 
             <li>
+                <a href="{{route ('formsave')}}">
+                    <ion-icon name="finger-print-outline"></ion-icon>
+                        บันทึกข้อมูลผู้สมัคร
+                    </a>
+                </li>
+
+
+
+                <li>
+                    <a href="{{route ('menuservices')}}">
+                        <ion-icon name="search-circle-outline"></ion-icon>
+                            ค้นหาผู้สมัคร
+                        </a>
+                    </li>
+
+
+
+            <li>
                 <a href="{{route ('class_name') }}">
                     <ion-icon class="-rotate-45" name="save-outline"></ion-icon>
                     ระดับชั้น
                 </a>
             </li>
+
+
+
+
+
+
+
             <li>
                 <a href="{{route ('register_student') }}">
-                    <ion-icon class="-rotate-45" name="save-outline"></ion-icon>
-                    บันทึกข้อมูลผู้สมัคร
+                    <ion-icon name="finger-print-outline"></ion-icon>
+                    ทดสอบบันทึก
                 </a>
             </li>
-            <li>
-                <a href="{{route ('search') }}">
-                    <ion-icon name="search-circle-outline"></ion-icon>
-                    ค้นหาผู้สมัคร
-                </a>
-            </li>
+
 
 
             <li class="badge">Pages</li>

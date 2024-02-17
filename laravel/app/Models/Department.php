@@ -18,5 +18,9 @@ class Department extends Model //ชื่อไฟล์ Model
         'class_name'
     ];
 
+//Fn นี้จะใช้ต่อเมื่อต้องการเรียกข้อมูลผ่านโมเดล  ใช้หรือไม่ก็ได้
+    public function user(){
+        return $this->hasOne(User::class , 'id' , 'user_id');
+    }
 
 }
